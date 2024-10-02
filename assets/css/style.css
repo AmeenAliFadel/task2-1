@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    padding: 10px 0px;
+}
+
+.first .nav img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first .hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.first .hero h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.first .hero h2
+{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.first h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+
+.first p {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px 0;
+}
+
+.All {
+    width: 60%;
+    border: 6px solid rgb(209, 210, 210);
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: auto;
+}
+
+.border1,
+.border2,
+.border3,
+.border4,
+.border5 {
+    border-bottom: 3px solid rgb(209, 210, 210);
+}
+
+.border1 h2,
+.border2 h2,
+.border3 h2,
+.border4 h2,
+.border5 h2,
+.border6 h2 {
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.border2 div h2
+{
+    padding: 20px;
+}
+.border2 div table
+{
+    padding: 20px;
+}
+.d1 {
+    width: auto;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.d1 div {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(56, 56, 255);
+    margin: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.d1 div a {
+    color: rgb(254, 251, 251);
+}
+
+.border3 .a3,
+.border4 .a4,
+.border5 .a5,
+.border6 .a6 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.border3 .a3 img,
+.border4 .a4 img,
+.border5 .a5 img,
+.border6 .a6 img {
+    margin: 0px 10px;
+    padding-top: 10px;
+}
+
+.d3,
+.d4,
+.d5,
+.d6 {
+    width: auto;
+    height: auto;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.border3 .d3 div,
+.border4 .d4 div,
+.border5 .d5 div,
+.border6 .d6 div {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(56, 56, 255);
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: rgb(254, 251, 251);
+}
